@@ -1,0 +1,23 @@
+{
+  "name": "express-oop",
+  "version": "1.0.0",
+  "description": "API Rest using express and OOP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndeberuti/express-oop.git"
+  },
+  "author": "Nicolás de Beruti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ndeberuti/express-oop/issues"
+  },
+  "homepage": "https://github.com/ndeberuti/express-oop#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.25.0"
+  }
+}
