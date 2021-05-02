@@ -7,12 +7,12 @@ async function getAccountByName(req, res) {
 
         res.status(status).json(data);
     } catch (error) {
-        console.log(JSON.stringify(error))
 
-        res.status(400).json({message: error.message});    
+        res.status(error.response.status).json({message: error.response.data.status.message});    
     }
 }
 
 module.exports = {
     getAccountByName
 }
+ 
